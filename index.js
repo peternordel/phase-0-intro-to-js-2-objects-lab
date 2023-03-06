@@ -1,4 +1,7 @@
-const employee = {};
+const employee = {
+    name : "",
+    streetAddress : ""
+};
 
 function updateEmployeeWithKeyAndValue(employee, key, value) {
     const newEmployee = {...employee};
